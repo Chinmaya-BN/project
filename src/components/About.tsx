@@ -92,7 +92,7 @@ const About = () => {
                 Passionate Engineer & Security Enthusiast
               </h3>
               
-              <div className="space-y-4 text-gray-300 leading-relaxed">
+              <div className="space-y-4 text-gray-300 leading-relaxed" style={{ textAlign: "justify" }}>
                 <p>
                   Hello! I'm Chinmaya B N, a Computer Science Engineering graduate from Vidyavardhaka College of Engineering 
                   with a strong CGPA of 9.3. I specialize in automated testing, proxy systems, and log-based security analysis.
