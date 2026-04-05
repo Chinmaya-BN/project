@@ -87,7 +87,7 @@ const Hero = () => {
           >
             <Sparkles className="text-yellow-400" size={20} />
             <h2 className="text-2xl md:text-3xl text-gray-300 font-light">
-              Computer Science Engineering Graduate
+              Associate Software Engineer
             </h2>
             <Sparkles className="text-yellow-400" size={20} />
           </motion.div>
@@ -106,7 +106,7 @@ const Hero = () => {
             variants={itemVariants}
             className="text-xl text-gray-300 max-w-3xl mx-auto mb-12 leading-relaxed"
           >
-Computer Science graduate with hands-on experience in QA automation, secure proxy systems, and AI-driven log analysis. Passionate about building resilient, scalable tech solutions that bridge security and innovation in modern infrastructures.
+Associate Software Engineer with experience in software development, automated testing, and security-focused system analysis. Passionate about building secure, scalable, and efficient solutions, and seeking to contribute to innovative technology projects in a growth-oriented organization.
           </motion.p>
 
           {/* CTA Buttons */}

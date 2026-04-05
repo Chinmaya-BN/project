@@ -89,19 +89,19 @@ const About = () => {
             {/* Right Column - Content */}
             <motion.div variants={itemVariants} className="space-y-6">
               <h3 className="text-3xl font-bold text-white mb-6">
-                Passionate Engineer & Security Enthusiast
+                Passionate Engineer & Software Developer
               </h3>
               
               <div className="space-y-4 text-gray-300 leading-relaxed" style={{ textAlign: "justify" }}>
                 <p>
-                  Hello! I'm Chinmaya B N, a Computer Science Engineering graduate from Vidyavardhaka College of Engineering 
-                  with a strong CGPA of 9.3. I specialize in automated testing, proxy systems, and log-based security analysis.
+                  Hello! I'm Chinmaya B N, a Computer Science Engineering graduate from Vidyavardhaka College of Engineering
+                  with a strong CGPA of 9.3. I specialize in software development, automated testing, and security-focused system analysis.
                 </p>
-                
+
                 <p>
-                  Currently working as a Technical Intern at Skyhigh Security, I focus on Quality Assurance Automation 
-                  for Skyhigh Client Proxy (SCP). My experience spans across developing AI-powered solutions, 
-                  automated testing frameworks, and security analysis systems.
+                  Currently working as an Associate Software Engineer at Skyhigh Security, I focus on analyzing and resolving
+                  customer-reported issues and product defects, while contributing to the design and development of next-generation
+                  product enhancements focused on scalability, performance, and security.
                 </p>
                 
                 <p>
