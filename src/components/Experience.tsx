@@ -5,14 +5,26 @@ import { Briefcase, Calendar, MapPin, ExternalLink } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
+      title: "Associate Software Engineer",
+      company: "Skyhigh Security",
+      location: "Bangalore, India",
+      period: "July 2025 - Present",
+      description: [
+        "Responsible for analyzing and resolving customer-reported issues and product defects, ensuring timely delivery of high-quality fixes",
+        "Involved in the design and development of next-generation product enhancements focused on scalability, performance, and security",
+        "Collaborate with cross-functional teams to diagnose, reproduce, and address technical problems in production and development environments"
+      ],
+      technologies: ["Software Development", "Security", "Debugging", "Cross-functional Collaboration", "Scalability"]
+    },
+    {
       title: "Technical Intern",
       company: "Skyhigh Security",
       location: "Remote",
-      period: "Jan 2025 - Present",
+      period: "Jan 2025 - June 2025",
       description: [
-        "Working on Quality Assurance Automation for Skyhigh Client Proxy (SCP), a component of SSE (Security Service Edge)",
+        "Worked on Quality Assurance Automation for Skyhigh Client Proxy (SCP), a component of SSE (Security Service Edge)",
         "Developed and maintained automated test cases to validate policy enforcement, traffic redirection logic, and secure web gateway behaviors",
-        "Collaborated with cross-functional teams to troubleshoot traffic flow anomalies and validate policy compliance using simulation tools and proxy configurations"
+        "Engaged in end-to-end validation of web traffic flows, analyzing headers, SSL handshakes, and redirection patterns for compliance assurance"
       ],
       technologies: ["Selenium", "Python", "Security Testing", "Proxy Systems", "Automation"]
     },
@@ -77,7 +89,7 @@ const Experience = () => {
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-blue-600 mx-auto rounded-full"></div>
             <p className="text-gray-400 mt-6 max-w-2xl mx-auto">
-              My professional journey in cybersecurity, AI development, and technical education
+              My professional journey in software development, cybersecurity, AI development, and technical education
             </p>
           </motion.div>
 
